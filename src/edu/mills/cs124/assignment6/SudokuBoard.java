@@ -71,19 +71,4 @@ public class SudokuBoard {
 		return arr;
 	}
 	
-	private static void displayGrid(char[][] grid) {
-		// This methods assumes the grid is rectangular -- that is,
-		// that it consists of Strings representing the grid's rows,
-		// and that each row has the same number of characters in it.
-		final String margin = "    ";
-		int h = grid.length;
-		int w = grid[0].length;
-		for (int r = 0; r < h; r++) {
-			System.out.print(margin);
-			for (int c = 0; c < w; c++) {
-				System.out.print(grid[r][c]);
-			}
-			System.out.println();
-		}
-	}
 }
