@@ -23,11 +23,50 @@ public class Assignment6 {
 	}
 	
 	
+	public static boolean compareWithUndos(String[] inputsA, String[] inputsB) {
+		
+		
+		// fake return value for now to make the compiler happy:
+		return false;
+	}
+	
 	public static void main(String[] args) {
 		// Uncomment lines below for some initial tests
 		//  of your code.
 
-		// checkChainFormable(new Domino(1, 3), new Domino(2, 3), new Domino(1, 5));
+//		checkChainFormable(new Domino(1, 3), new Domino(2, 3), new Domino(1, 5));
+		
+//		String[] sudoku1 = {				
+//			"1...",
+//			".2..",
+//			"...3",
+//			"...."
+//		};
+//		SudokuBoard board1 = new SudokuBoard(sudoku1);
+//		board1.display();
+//		// This should find a solution:
+//		board1.solve();
+//		
+//		String[] sudoku2 = {				
+//				"1...",
+//				".2..",
+//				"...2",
+//				"3..."
+//			};
+//		SudokuBoard board2 = new SudokuBoard(sudoku1);
+//		board2.display();
+//		// This should report the board is NOT solvable:
+//		board2.solve();
+		
+//		String[] sequence1 = { "The", "cake", "is", "a", "live", "*OOPS*", "lie" };
+//		String[] sequence2 = { "The", "pie", "*OOPS*", "cake", "is", "sweet", "*OOPS*", "a", "lie" };
+//		// This should print true:
+//		System.out.println(compareWithUndos(sequence1, sequence2));
+//		
+//		String[] sequence3 = { "I", "believe", "you", "have", "my", "stapler" };
+//		String[] sequence4 = { "I", "believe", "youu", "*OOPS*", "you", "hvvv", "my", "stapler" };
+//		// This should print false:
+//		System.out.println(compareWithUndos(sequence3, sequence4));
 	}
 	
 	// =======================================================
