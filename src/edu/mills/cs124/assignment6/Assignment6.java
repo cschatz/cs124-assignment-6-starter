@@ -58,13 +58,13 @@ public class Assignment6 {
 //		// This should report the board is NOT solvable:
 //		board2.solve();
 		
-//		String[] sequence1 = { "The", "cake", "is", "a", "live", "*OOPS*", "lie" };
-//		String[] sequence2 = { "The", "pie", "*OOPS*", "cake", "is", "sweet", "*OOPS*", "a", "lie" };
+//		String[] sequence1 = { "The", "cake", "is", "a", "live", "*UNDO*", "lie" };
+//		String[] sequence2 = { "The", "pie", "*UNDO*", "cake", "is", "sweet", "*UNDO*", "a", "lie" };
 //		// This should print true:
 //		System.out.println(compareWithUndos(sequence1, sequence2));
 //		
 //		String[] sequence3 = { "I", "believe", "you", "have", "my", "stapler" };
-//		String[] sequence4 = { "I", "believe", "youu", "*OOPS*", "you", "hvvv", "my", "stapler" };
+//		String[] sequence4 = { "I", "believe", "youu", "*UNDO*", "you", "hvvv", "my", "stapler" };
 //		// This should print false:
 //		System.out.println(compareWithUndos(sequence3, sequence4));
 	}
