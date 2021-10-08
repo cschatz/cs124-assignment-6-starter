@@ -20,7 +20,7 @@ public class SudokuBoard {
 		System.out.println();
 	}
 	
-	private boolean solveHelper(int r, int c) {
+	private boolean solveHelper(int row, int col) {
 		
 		
 		// Currently just returning false no matter what
