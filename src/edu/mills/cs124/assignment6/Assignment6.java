@@ -53,7 +53,7 @@ public class Assignment6 {
 //				"...2",
 //				"3..."
 //			};
-//		SudokuBoard board2 = new SudokuBoard(sudoku1);
+//		SudokuBoard board2 = new SudokuBoard(sudoku2);
 //		board2.display();
 //		// This should report the board is NOT solvable:
 //		board2.solve();
